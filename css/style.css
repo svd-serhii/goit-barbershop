@@ -1,0 +1,25 @@
+/* font-family: 'Raleway', sans-serif; */
+
+:root {
+    --manin-color: #555555;
+    --main-secondary-color: #ffffff;
+    --title-color: #303030;
+    --text-color: #9da4bd;
+    --hover-color: #ff6c00;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}

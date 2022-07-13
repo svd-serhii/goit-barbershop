@@ -1,19 +1,18 @@
 /* font-family: 'Raleway', sans-serif; */
 
 :root {
-    --manin-color: #555555;
-    --main-secondary-color: #ffffff;
-    --title-color: #303030;
-    --text-color: #9da4bd;
-    --hover-color: #ff6c00;
+    --first-title-color: #303030;
+    --second-title-color: #ffffff;
+    --first-text-color: #555555;
+    --second-text-color: #9da4bd;
+    --third-text-color: color: rgba(157, 164, 189, 0.6);
+    --accent-color: #ff6c00;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
-}
-
-.title {
-    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    color: var(--first-title-color);
 }
 
 .link {
@@ -22,4 +21,278 @@ body {
 
 .list {
     list-style: none;
+}
+
+.title {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+
+/* Header */
+
+.header {
+    background-color: gray;
+}
+
+.header-link,
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--second-title-color);
+}
+
+.header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--accent-color);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--first-title-color);
+}
+
+
+/* Hero */
+
+.hero {
+    background-color: gray;
+}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+.hero-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.hero-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+
+/* About */
+
+.about-list {}
+
+.about-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.about-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.about-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-btn {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+
+/* Prices */
+
+.prices {
+    background-color: gray;
+}
+
+.prices-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.prices-item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.prices-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* Benefits */
+
+.benefits-item span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.benefits-item sup {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+    color: #FF6C00;
+}
+
+.benefits-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+}
+
+.benefits-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.benefits-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.benefits-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+
+/* Barbers */
+
+.barbers-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.barbers-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.02em;
+    color: #FF6C00;
 }
